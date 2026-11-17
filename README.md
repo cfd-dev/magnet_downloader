@@ -42,7 +42,6 @@ python magnet_download.py "magnet:?xt=urn:btih:..." ./downloads
 python magnet_download.py "example.torrent" ./downloads
 ```
 
-Windows 用户也可以把磁力链接或 `.torrent` 文件**拖到 `运行下载.bat` 图标上**，即可调用命令行版下载。
 
 ## 打包单文件 exe
 
@@ -76,7 +75,6 @@ python make_icon.py
 | `magnet_download.py` | 命令行下载核心：种子缓存、infohash 校验、DHT 回退、会话与下载循环 |
 | `magnet_download_gui.py` | tkinter 图形界面：多任务调度、托盘、持久化、图标加载 |
 | `make_icon.py` | 图标生成脚本 |
-| `运行下载.bat` | Windows 拖放启动命令行版 |
 | `磁力下载器_torrents/` | 缓存命中的 `.torrent` 文件，按 infohash 命名 |
 | `磁力下载器_tasks.json` | 进行中的任务列表（id、链接、保存目录） |
 
